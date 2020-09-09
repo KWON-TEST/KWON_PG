@@ -1,0 +1,429 @@
+2020-08-18 17:01:28 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting KwonPgApplication on DESKTOP-JIN with PID 5696 (C:\workspace\KWON_PG\bin\main started by mtouch in C:\workspace\KWON_PG)
+2020-08-18 17:01:28 [INFO ] [SpringApplication.java]logStartupProfileInfo(651) : No active profile set, falling back to default profiles: default
+2020-08-18 17:01:28 [INFO ] [RepositoryConfigurationDelegate.java]registerRepositoriesIn(127) : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-18 17:01:28 [INFO ] [RepositoryConfigurationDelegate.java]registerRepositoriesIn(187) : Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
+2020-08-18 17:01:28 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2020-08-18 17:01:28 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2020-08-18 17:01:28 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-18 17:01:28 [INFO ] [DirectJDKLog.java]log(173) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-08-18 17:01:28 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2020-08-18 17:01:28 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 229 ms
+2020-08-18 17:01:28 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-3 - Starting...
+2020-08-18 17:01:28 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-3 - Start completed.
+2020-08-18 17:01:28 [INFO ] [H2ConsoleAutoConfiguration.java]lambda$h2Console$0(74) : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:2c226d07-24f8-4be3-8f35-2d45db307cbf'
+2020-08-18 17:01:28 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-18 17:01:28 [INFO ] [LogHelper.java]logPersistenceUnitInformation(31) : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-18 17:01:28 [INFO ] [Dialect.java]<init>(170) : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-18 17:01:28 [WARN ] [JpaBaseConfiguration.java]openEntityManagerInViewInterceptor(220) : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-18 17:01:28 [INFO ] [JtaPlatformInitiator.java]initiateService(52) : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-18 17:01:28 [INFO ] [AbstractEntityManagerFactoryBean.java]buildNativeEntityManagerFactory(416) : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-18 17:01:28 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2020-08-18 17:01:28 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-18 17:01:28 [INFO ] [DeferredRepositoryInitializationListener.java]onApplicationEvent(49) : Triggering deferred initialization of Spring Data repositories…
+2020-08-18 17:01:28 [INFO ] [DeferredRepositoryInitializationListener.java]onApplicationEvent(53) : Spring Data repositories initialized!
+2020-08-18 17:01:28 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started KwonPgApplication in 0.355 seconds (JVM running for 122.609)
+2020-08-18 17:01:28 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2020-08-18 17:01:28 [INFO ] [KwonPgApplication.java]main(14) : ======main======
+2020-08-18 17:01:31 [INFO ] [SpringApplicationAdminMXBeanRegistrar.java]shutdown(159) : Application shutdown requested.
+2020-08-18 17:01:31 [INFO ] [AbstractEntityManagerFactoryBean.java]destroy(598) : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-18 17:01:31 [INFO ] [SchemaDropperImpl.java]perform(526) : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-18 17:01:31 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-18 17:01:31 [WARN ] [DisposableBeanAdapter.java]destroy(267) : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-18 17:01:31 [INFO ] [HikariDataSource.java]close(350) : HikariPool-3 - Shutdown initiated...
+2020-08-18 17:01:31 [INFO ] [HikariDataSource.java]close(352) : HikariPool-3 - Shutdown completed.
+2020-08-18 17:01:45 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting KwonPgApplication on DESKTOP-JIN with PID 18240 (C:\workspace\KWON_PG\bin\main started by mtouch in C:\workspace\KWON_PG)
+2020-08-18 17:01:45 [INFO ] [SpringApplication.java]logStartupProfileInfo(651) : No active profile set, falling back to default profiles: default
+2020-08-18 17:01:45 [INFO ] [DeferredLog.java]logTo(225) : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-18 17:01:45 [INFO ] [DeferredLog.java]logTo(225) : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-18 17:01:45 [INFO ] [RepositoryConfigurationDelegate.java]registerRepositoriesIn(127) : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-18 17:01:45 [INFO ] [RepositoryConfigurationDelegate.java]registerRepositoriesIn(187) : Finished Spring Data repository scanning in 8ms. Found 0 JPA repository interfaces.
+2020-08-18 17:01:46 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2020-08-18 17:01:46 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2020-08-18 17:01:46 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-18 17:01:46 [INFO ] [DirectJDKLog.java]log(173) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-08-18 17:01:46 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2020-08-18 17:01:46 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 787 ms
+2020-08-18 17:01:46 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-1 - Starting...
+2020-08-18 17:01:46 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-1 - Start completed.
+2020-08-18 17:01:46 [INFO ] [H2ConsoleAutoConfiguration.java]lambda$h2Console$0(74) : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:578b884f-4794-433d-afaf-bc6e2d3e772c'
+2020-08-18 17:01:46 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-18 17:01:46 [INFO ] [LogHelper.java]logPersistenceUnitInformation(31) : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-18 17:01:46 [WARN ] [JpaBaseConfiguration.java]openEntityManagerInViewInterceptor(220) : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-18 17:01:46 [INFO ] [Version.java]logVersion(44) : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-18 17:01:46 [INFO ] [JavaReflectionManager.java]<clinit>(49) : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-18 17:01:46 [INFO ] [Dialect.java]<init>(170) : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-18 17:01:46 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2020-08-18 17:01:46 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-18 17:01:46 [INFO ] [DeferredRepositoryInitializationListener.java]onApplicationEvent(49) : Triggering deferred initialization of Spring Data repositories…
+2020-08-18 17:01:46 [INFO ] [DeferredRepositoryInitializationListener.java]onApplicationEvent(53) : Spring Data repositories initialized!
+2020-08-18 17:01:46 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started KwonPgApplication in 1.51 seconds (JVM running for 2.004)
+2020-08-18 17:01:46 [INFO ] [KwonPgApplication.java]main(14) : ======main======
+2020-08-18 17:01:46 [INFO ] [JtaPlatformInitiator.java]initiateService(52) : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-18 17:01:46 [INFO ] [AbstractEntityManagerFactoryBean.java]buildNativeEntityManagerFactory(416) : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-18 17:02:27 [INFO ] [SpringApplicationAdminMXBeanRegistrar.java]shutdown(159) : Application shutdown requested.
+2020-08-18 17:02:27 [INFO ] [AbstractEntityManagerFactoryBean.java]destroy(598) : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-18 17:02:27 [INFO ] [SchemaDropperImpl.java]perform(526) : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-18 17:02:27 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-18 17:02:27 [WARN ] [DisposableBeanAdapter.java]destroy(267) : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-18 17:02:27 [INFO ] [HikariDataSource.java]close(350) : HikariPool-1 - Shutdown initiated...
+2020-08-18 17:02:27 [INFO ] [HikariDataSource.java]close(352) : HikariPool-1 - Shutdown completed.
+2020-08-18 17:02:49 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting KwonPgApplication on DESKTOP-JIN with PID 17528 (C:\workspace\KWON_PG\bin\main started by mtouch in C:\workspace\KWON_PG)
+2020-08-18 17:02:49 [INFO ] [SpringApplication.java]logStartupProfileInfo(651) : No active profile set, falling back to default profiles: default
+2020-08-18 17:02:49 [INFO ] [DeferredLog.java]logTo(225) : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-18 17:02:49 [INFO ] [DeferredLog.java]logTo(225) : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-18 17:02:49 [INFO ] [RepositoryConfigurationDelegate.java]registerRepositoriesIn(127) : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-18 17:02:49 [INFO ] [RepositoryConfigurationDelegate.java]registerRepositoriesIn(187) : Finished Spring Data repository scanning in 7ms. Found 0 JPA repository interfaces.
+2020-08-18 17:02:49 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2020-08-18 17:02:49 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2020-08-18 17:02:49 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-18 17:02:50 [INFO ] [DirectJDKLog.java]log(173) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-08-18 17:02:50 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2020-08-18 17:02:50 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 778 ms
+2020-08-18 17:02:50 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-1 - Starting...
+2020-08-18 17:02:50 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-1 - Start completed.
+2020-08-18 17:02:50 [INFO ] [H2ConsoleAutoConfiguration.java]lambda$h2Console$0(74) : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:f12e1ee3-e0ec-4fa6-814c-ab7c482753d3'
+2020-08-18 17:02:50 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-18 17:02:50 [INFO ] [LogHelper.java]logPersistenceUnitInformation(31) : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-18 17:02:50 [WARN ] [JpaBaseConfiguration.java]openEntityManagerInViewInterceptor(220) : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-18 17:02:50 [INFO ] [Version.java]logVersion(44) : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-18 17:02:50 [INFO ] [JavaReflectionManager.java]<clinit>(49) : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-18 17:02:50 [INFO ] [Dialect.java]<init>(170) : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-18 17:02:50 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2020-08-18 17:02:50 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-18 17:02:50 [INFO ] [DeferredRepositoryInitializationListener.java]onApplicationEvent(49) : Triggering deferred initialization of Spring Data repositories…
+2020-08-18 17:02:50 [INFO ] [DeferredRepositoryInitializationListener.java]onApplicationEvent(53) : Spring Data repositories initialized!
+2020-08-18 17:02:50 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started KwonPgApplication in 1.523 seconds (JVM running for 2.018)
+2020-08-18 17:02:50 [INFO ] [KwonPgApplication.java]main(14) : ======main======
+2020-08-18 17:02:50 [INFO ] [JtaPlatformInitiator.java]initiateService(52) : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-18 17:02:50 [INFO ] [AbstractEntityManagerFactoryBean.java]buildNativeEntityManagerFactory(416) : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-18 17:03:30 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-18 17:03:30 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2020-08-18 17:03:30 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 3 ms
+2020-08-18 17:03:30 [INFO ] [TestController.java]test(13) : ======test======
+2020-08-18 17:11:25 [INFO ] [AbstractEntityManagerFactoryBean.java]destroy(598) : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-18 17:11:25 [INFO ] [SchemaDropperImpl.java]perform(526) : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-18 17:11:25 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-18 17:11:25 [WARN ] [DisposableBeanAdapter.java]destroy(267) : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-18 17:11:25 [INFO ] [HikariDataSource.java]close(350) : HikariPool-1 - Shutdown initiated...
+2020-08-18 17:11:25 [INFO ] [HikariDataSource.java]close(352) : HikariPool-1 - Shutdown completed.
+2020-08-18 17:11:26 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting KwonPgApplication on DESKTOP-JIN with PID 17528 (C:\workspace\KWON_PG\bin\main started by mtouch in C:\workspace\KWON_PG)
+2020-08-18 17:11:26 [INFO ] [SpringApplication.java]logStartupProfileInfo(651) : No active profile set, falling back to default profiles: default
+2020-08-18 17:11:31 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting KwonPgApplication on DESKTOP-JIN with PID 7468 (C:\workspace\KWON_PG\bin\main started by mtouch in C:\workspace\KWON_PG)
+2020-08-18 17:11:31 [INFO ] [SpringApplication.java]logStartupProfileInfo(651) : No active profile set, falling back to default profiles: default
+2020-08-18 17:11:31 [INFO ] [DeferredLog.java]logTo(225) : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-18 17:11:31 [INFO ] [DeferredLog.java]logTo(225) : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-18 17:11:32 [INFO ] [RepositoryConfigurationDelegate.java]registerRepositoriesIn(127) : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-18 17:11:32 [INFO ] [RepositoryConfigurationDelegate.java]registerRepositoriesIn(187) : Finished Spring Data repository scanning in 62ms. Found 0 JPA repository interfaces.
+2020-08-18 17:11:33 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2020-08-18 17:11:33 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2020-08-18 17:11:33 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-18 17:11:33 [INFO ] [DirectJDKLog.java]log(173) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-08-18 17:11:33 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2020-08-18 17:11:33 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 2128 ms
+2020-08-18 17:11:33 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-1 - Starting...
+2020-08-18 17:11:33 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-1 - Start completed.
+2020-08-18 17:11:33 [INFO ] [H2ConsoleAutoConfiguration.java]lambda$h2Console$0(74) : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:1f2e1c8c-b6a3-4f44-9ae1-87868da0c859'
+2020-08-18 17:11:34 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-18 17:11:34 [INFO ] [LogHelper.java]logPersistenceUnitInformation(31) : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-18 17:11:34 [WARN ] [JpaBaseConfiguration.java]openEntityManagerInViewInterceptor(220) : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-18 17:11:34 [INFO ] [Version.java]logVersion(44) : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-18 17:11:35 [INFO ] [JavaReflectionManager.java]<clinit>(49) : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-18 17:11:35 [INFO ] [Dialect.java]<init>(170) : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-18 17:11:35 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2020-08-18 17:11:35 [INFO ] [JtaPlatformInitiator.java]initiateService(52) : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-18 17:11:35 [INFO ] [AbstractEntityManagerFactoryBean.java]buildNativeEntityManagerFactory(416) : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-18 17:11:35 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-18 17:11:35 [INFO ] [DeferredRepositoryInitializationListener.java]onApplicationEvent(49) : Triggering deferred initialization of Spring Data repositories…
+2020-08-18 17:11:35 [INFO ] [DeferredRepositoryInitializationListener.java]onApplicationEvent(53) : Spring Data repositories initialized!
+2020-08-18 17:11:35 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started KwonPgApplication in 4.823 seconds (JVM running for 6.308)
+2020-08-18 17:11:35 [INFO ] [KwonPgApplication.java]main(14) : ======main======
+2020-08-18 17:11:40 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-18 17:11:40 [INFO ] [FrameworkServlet.java]initServletBean(525) : Initializing Servlet 'dispatcherServlet'
+2020-08-18 17:11:40 [INFO ] [FrameworkServlet.java]initServletBean(547) : Completed initialization in 5 ms
+2020-08-18 17:11:40 [INFO ] [TestController.java]test(13) : ======test======
+2020-08-18 17:13:22 [INFO ] [AbstractEntityManagerFactoryBean.java]destroy(598) : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-18 17:13:22 [INFO ] [SchemaDropperImpl.java]perform(526) : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-18 17:13:22 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-18 17:13:22 [WARN ] [DisposableBeanAdapter.java]destroy(267) : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-18 17:13:22 [INFO ] [HikariDataSource.java]close(350) : HikariPool-1 - Shutdown initiated...
+2020-08-18 17:13:22 [INFO ] [HikariDataSource.java]close(352) : HikariPool-1 - Shutdown completed.
+2020-08-18 17:13:22 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting KwonPgApplication on DESKTOP-JIN with PID 7468 (C:\workspace\KWON_PG\bin\main started by mtouch in C:\workspace\KWON_PG)
+2020-08-18 17:13:22 [INFO ] [SpringApplication.java]logStartupProfileInfo(651) : No active profile set, falling back to default profiles: default
+2020-08-18 17:13:22 [INFO ] [RepositoryConfigurationDelegate.java]registerRepositoriesIn(127) : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-18 17:13:22 [INFO ] [RepositoryConfigurationDelegate.java]registerRepositoriesIn(187) : Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
+2020-08-18 17:13:22 [INFO ] [TomcatWebServer.java]initialize(108) : Tomcat initialized with port(s): 8080 (http)
+2020-08-18 17:13:22 [INFO ] [DirectJDKLog.java]log(173) : Starting service [Tomcat]
+2020-08-18 17:13:22 [INFO ] [DirectJDKLog.java]log(173) : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-18 17:13:22 [INFO ] [DirectJDKLog.java]log(173) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-08-18 17:13:22 [INFO ] [DirectJDKLog.java]log(173) : Initializing Spring embedded WebApplicationContext
+2020-08-18 17:13:22 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 248 ms
+2020-08-18 17:13:22 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-2 - Starting...
+2020-08-18 17:13:22 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-2 - Start completed.
+2020-08-18 17:13:22 [INFO ] [H2ConsoleAutoConfiguration.java]lambda$h2Console$0(74) : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:66ccf446-3a4a-4201-8068-f54d75892db7'
+2020-08-18 17:13:22 [INFO ] [ExecutorConfigurationSupport.java]initialize(181) : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-18 17:13:22 [INFO ] [LogHelper.java]logPersistenceUnitInformation(31) : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-18 17:13:22 [INFO ] [Dialect.java]<init>(170) : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-18 17:13:22 [WARN ] [JpaBaseConfiguration.java]openEntityManagerInViewInterceptor(220) : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-18 17:13:22 [INFO ] [JtaPlatformInitiator.java]initiateService(52) : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-18 17:13:22 [INFO ] [AbstractEntityManagerFactoryBean.java]buildNativeEntityManagerFactory(416) : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-18 17:13:22 [INFO ] [OptionalLiveReloadServer.java]startServer(58) : LiveReload server is running on port 35729
+2020-08-18 17:13:22 [INFO ] [TomcatWebServer.java]start(220) : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-18 17:13:22 [INFO ] [DeferredRepositoryInitializationListener.java]onApplicationEvent(49) : Triggering deferred initialization of Spring Data repositories…
+2020-08-18 17:13:22 [INFO ] [DeferredRepositoryInitializationListener.java]onApplicationEvent(53) : Spring Data repositories initialized!
+2020-08-18 17:13:22 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started KwonPgApplication in 0.391 seconds (JVM running for 113.676)
+2020-08-18 17:13:22 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(63) : Condition evaluation unchanged
+2020-08-18 17:13:22 [INFO ] [KwonPgApplication.java]main(14) : ======main======
+2020-08-18 17:15:09 [INFO ] [AbstractEntityManagerFactoryBean.java]destroy(598) : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-18 17:15:09 [INFO ] [SchemaDropperImpl.java]perform(526) : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-18 17:15:09 [INFO ] [ExecutorConfigurationSupport.java]shutdown(218) : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-18 17:15:09 [WARN ] [DisposableBeanAdapter.java]destroy(267) : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-18 17:15:09 [INFO ] [HikariDataSource.java]close(350) : HikariPool-2 - Shutdown initiated...
+2020-08-18 17:15:09 [INFO ] [HikariDataSource.java]close(352) : HikariPool-2 - Shutdown completed.
+2020-08-18 17:15:10 [INFO ] [StartupInfoLogger.java][logStarting(55)] : Starting KwonPgApplication on DESKTOP-JIN with PID 7468 (C:\workspace\KWON_PG\bin\main started by mtouch in C:\workspace\KWON_PG)
+2020-08-18 17:15:10 [INFO ] [SpringApplication.java][logStartupProfileInfo(651)] : No active profile set, falling back to default profiles: default
+2020-08-18 17:15:10 [INFO ] [RepositoryConfigurationDelegate.java][registerRepositoriesIn(127)] : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-18 17:15:10 [INFO ] [RepositoryConfigurationDelegate.java][registerRepositoriesIn(187)] : Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
+2020-08-18 17:15:10 [INFO ] [TomcatWebServer.java][initialize(108)] : Tomcat initialized with port(s): 8080 (http)
+2020-08-18 17:15:10 [INFO ] [DirectJDKLog.java][log(173)] : Starting service [Tomcat]
+2020-08-18 17:15:10 [INFO ] [DirectJDKLog.java][log(173)] : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-18 17:15:10 [INFO ] [DirectJDKLog.java][log(173)] : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-08-18 17:15:10 [INFO ] [DirectJDKLog.java][log(173)] : Initializing Spring embedded WebApplicationContext
+2020-08-18 17:15:10 [INFO ] [ServletWebServerApplicationContext.java][prepareWebApplicationContext(285)] : Root WebApplicationContext: initialization completed in 235 ms
+2020-08-18 17:15:10 [INFO ] [HikariDataSource.java][getConnection(110)] : HikariPool-3 - Starting...
+2020-08-18 17:15:10 [INFO ] [HikariDataSource.java][getConnection(123)] : HikariPool-3 - Start completed.
+2020-08-18 17:15:10 [INFO ] [H2ConsoleAutoConfiguration.java][lambda$h2Console$0(74)] : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:a620cf76-7412-4798-bc84-2add772bd90c'
+2020-08-18 17:15:10 [INFO ] [ExecutorConfigurationSupport.java][initialize(181)] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-18 17:15:10 [INFO ] [LogHelper.java][logPersistenceUnitInformation(31)] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-18 17:15:10 [INFO ] [Dialect.java][<init>(170)] : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-18 17:15:10 [WARN ] [JpaBaseConfiguration.java][openEntityManagerInViewInterceptor(220)] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-18 17:15:10 [INFO ] [JtaPlatformInitiator.java][initiateService(52)] : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-18 17:15:10 [INFO ] [AbstractEntityManagerFactoryBean.java][buildNativeEntityManagerFactory(416)] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-18 17:15:10 [INFO ] [OptionalLiveReloadServer.java][startServer(58)] : LiveReload server is running on port 35729
+2020-08-18 17:15:10 [INFO ] [TomcatWebServer.java][start(220)] : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-18 17:15:10 [INFO ] [DeferredRepositoryInitializationListener.java][onApplicationEvent(49)] : Triggering deferred initialization of Spring Data repositories…
+2020-08-18 17:15:10 [INFO ] [DeferredRepositoryInitializationListener.java][onApplicationEvent(53)] : Spring Data repositories initialized!
+2020-08-18 17:15:10 [INFO ] [StartupInfoLogger.java][logStarted(61)] : Started KwonPgApplication in 0.369 seconds (JVM running for 221.062)
+2020-08-18 17:15:10 [INFO ] [ConditionEvaluationDeltaLoggingListener.java][onApplicationEvent(63)] : Condition evaluation unchanged
+2020-08-18 17:15:10 [INFO ] [KwonPgApplication.java][main(14)] : ======main======
+2020-08-18 17:15:10 [INFO ] [SpringApplicationAdminMXBeanRegistrar.java][shutdown(159)] : Application shutdown requested.
+2020-08-18 17:15:11 [INFO ] [AbstractEntityManagerFactoryBean.java][destroy(598)] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-18 17:15:11 [INFO ] [SchemaDropperImpl.java][perform(526)] : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-18 17:15:11 [INFO ] [ExecutorConfigurationSupport.java][shutdown(218)] : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-18 17:15:11 [WARN ] [DisposableBeanAdapter.java][destroy(267)] : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-18 17:15:11 [INFO ] [HikariDataSource.java][close(350)] : HikariPool-3 - Shutdown initiated...
+2020-08-18 17:15:11 [INFO ] [HikariDataSource.java][close(352)] : HikariPool-3 - Shutdown completed.
+2020-08-18 17:15:14 [INFO ] [StartupInfoLogger.java][logStarting(55)] : Starting KwonPgApplication on DESKTOP-JIN with PID 12124 (C:\workspace\KWON_PG\bin\main started by mtouch in C:\workspace\KWON_PG)
+2020-08-18 17:15:14 [INFO ] [SpringApplication.java][logStartupProfileInfo(651)] : No active profile set, falling back to default profiles: default
+2020-08-18 17:15:14 [INFO ] [DeferredLog.java][logTo(225)] : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-18 17:15:14 [INFO ] [DeferredLog.java][logTo(225)] : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-18 17:15:14 [INFO ] [RepositoryConfigurationDelegate.java][registerRepositoriesIn(127)] : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-18 17:15:14 [INFO ] [RepositoryConfigurationDelegate.java][registerRepositoriesIn(187)] : Finished Spring Data repository scanning in 8ms. Found 0 JPA repository interfaces.
+2020-08-18 17:15:15 [INFO ] [TomcatWebServer.java][initialize(108)] : Tomcat initialized with port(s): 8080 (http)
+2020-08-18 17:15:15 [INFO ] [DirectJDKLog.java][log(173)] : Starting service [Tomcat]
+2020-08-18 17:15:15 [INFO ] [DirectJDKLog.java][log(173)] : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-18 17:15:15 [INFO ] [DirectJDKLog.java][log(173)] : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-08-18 17:15:15 [INFO ] [DirectJDKLog.java][log(173)] : Initializing Spring embedded WebApplicationContext
+2020-08-18 17:15:15 [INFO ] [ServletWebServerApplicationContext.java][prepareWebApplicationContext(285)] : Root WebApplicationContext: initialization completed in 785 ms
+2020-08-18 17:15:15 [INFO ] [HikariDataSource.java][getConnection(110)] : HikariPool-1 - Starting...
+2020-08-18 17:15:15 [INFO ] [HikariDataSource.java][getConnection(123)] : HikariPool-1 - Start completed.
+2020-08-18 17:15:15 [INFO ] [H2ConsoleAutoConfiguration.java][lambda$h2Console$0(74)] : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5339f632-3ec6-42c8-9907-0fee8625bb2f'
+2020-08-18 17:15:15 [INFO ] [ExecutorConfigurationSupport.java][initialize(181)] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-18 17:15:15 [INFO ] [LogHelper.java][logPersistenceUnitInformation(31)] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-18 17:15:15 [WARN ] [JpaBaseConfiguration.java][openEntityManagerInViewInterceptor(220)] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-18 17:15:15 [INFO ] [Version.java][logVersion(44)] : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-18 17:15:15 [INFO ] [JavaReflectionManager.java][<clinit>(49)] : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-18 17:15:15 [INFO ] [Dialect.java][<init>(170)] : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-18 17:15:15 [INFO ] [OptionalLiveReloadServer.java][startServer(58)] : LiveReload server is running on port 35729
+2020-08-18 17:15:15 [INFO ] [TomcatWebServer.java][start(220)] : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-18 17:15:15 [INFO ] [DeferredRepositoryInitializationListener.java][onApplicationEvent(49)] : Triggering deferred initialization of Spring Data repositories…
+2020-08-18 17:15:15 [INFO ] [DeferredRepositoryInitializationListener.java][onApplicationEvent(53)] : Spring Data repositories initialized!
+2020-08-18 17:15:15 [INFO ] [StartupInfoLogger.java][logStarted(61)] : Started KwonPgApplication in 1.51 seconds (JVM running for 2.011)
+2020-08-18 17:15:15 [INFO ] [KwonPgApplication.java][main(14)] : ======main======
+2020-08-18 17:15:15 [INFO ] [JtaPlatformInitiator.java][initiateService(52)] : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-18 17:15:15 [INFO ] [AbstractEntityManagerFactoryBean.java][buildNativeEntityManagerFactory(416)] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-18 17:16:25 [INFO ] [SpringApplicationAdminMXBeanRegistrar.java][shutdown(159)] : Application shutdown requested.
+2020-08-18 17:16:25 [INFO ] [AbstractEntityManagerFactoryBean.java][destroy(598)] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-18 17:16:25 [INFO ] [SchemaDropperImpl.java][perform(526)] : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-18 17:16:25 [INFO ] [ExecutorConfigurationSupport.java][shutdown(218)] : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-18 17:16:25 [WARN ] [DisposableBeanAdapter.java][destroy(267)] : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-18 17:16:25 [INFO ] [HikariDataSource.java][close(350)] : HikariPool-1 - Shutdown initiated...
+2020-08-18 17:16:25 [INFO ] [HikariDataSource.java][close(352)] : HikariPool-1 - Shutdown completed.
+2020-08-18 17:16:37 [INFO ] [StartupInfoLogger.java][logStarting:(55)] : Starting KwonPgApplication on DESKTOP-JIN with PID 16208 (C:\workspace\KWON_PG\bin\main started by mtouch in C:\workspace\KWON_PG)
+2020-08-18 17:16:37 [INFO ] [SpringApplication.java][logStartupProfileInfo:(651)] : No active profile set, falling back to default profiles: default
+2020-08-18 17:16:37 [INFO ] [DeferredLog.java][logTo:(225)] : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-18 17:16:37 [INFO ] [DeferredLog.java][logTo:(225)] : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-18 17:16:37 [INFO ] [RepositoryConfigurationDelegate.java][registerRepositoriesIn:(127)] : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-18 17:16:37 [INFO ] [RepositoryConfigurationDelegate.java][registerRepositoriesIn:(187)] : Finished Spring Data repository scanning in 7ms. Found 0 JPA repository interfaces.
+2020-08-18 17:16:37 [INFO ] [TomcatWebServer.java][initialize:(108)] : Tomcat initialized with port(s): 8080 (http)
+2020-08-18 17:16:37 [INFO ] [DirectJDKLog.java][log:(173)] : Starting service [Tomcat]
+2020-08-18 17:16:37 [INFO ] [DirectJDKLog.java][log:(173)] : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-18 17:16:38 [INFO ] [DirectJDKLog.java][log:(173)] : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-08-18 17:16:38 [INFO ] [DirectJDKLog.java][log:(173)] : Initializing Spring embedded WebApplicationContext
+2020-08-18 17:16:38 [INFO ] [ServletWebServerApplicationContext.java][prepareWebApplicationContext:(285)] : Root WebApplicationContext: initialization completed in 786 ms
+2020-08-18 17:16:38 [INFO ] [HikariDataSource.java][getConnection:(110)] : HikariPool-1 - Starting...
+2020-08-18 17:16:38 [INFO ] [HikariDataSource.java][getConnection:(123)] : HikariPool-1 - Start completed.
+2020-08-18 17:16:38 [INFO ] [H2ConsoleAutoConfiguration.java][lambda$h2Console$0:(74)] : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:20c79249-46c3-4e0a-8d59-254bf7b764f0'
+2020-08-18 17:16:38 [INFO ] [ExecutorConfigurationSupport.java][initialize:(181)] : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-18 17:16:38 [INFO ] [LogHelper.java][logPersistenceUnitInformation:(31)] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-18 17:16:38 [WARN ] [JpaBaseConfiguration.java][openEntityManagerInViewInterceptor:(220)] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-18 17:16:38 [INFO ] [Version.java][logVersion:(44)] : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-18 17:16:38 [INFO ] [JavaReflectionManager.java][<clinit>:(49)] : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-18 17:16:38 [INFO ] [Dialect.java][<init>:(170)] : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-18 17:16:38 [INFO ] [OptionalLiveReloadServer.java][startServer:(58)] : LiveReload server is running on port 35729
+2020-08-18 17:16:38 [INFO ] [TomcatWebServer.java][start:(220)] : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-18 17:16:38 [INFO ] [DeferredRepositoryInitializationListener.java][onApplicationEvent:(49)] : Triggering deferred initialization of Spring Data repositories…
+2020-08-18 17:16:38 [INFO ] [DeferredRepositoryInitializationListener.java][onApplicationEvent:(53)] : Spring Data repositories initialized!
+2020-08-18 17:16:38 [INFO ] [StartupInfoLogger.java][logStarted:(61)] : Started KwonPgApplication in 1.54 seconds (JVM running for 2.042)
+2020-08-18 17:16:38 [INFO ] [KwonPgApplication.java][main:(14)] : ======main======
+2020-08-18 17:16:38 [INFO ] [JtaPlatformInitiator.java][initiateService:(52)] : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-18 17:16:38 [INFO ] [AbstractEntityManagerFactoryBean.java][buildNativeEntityManagerFactory:(416)] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-18 17:16:43 [INFO ] [DirectJDKLog.java][log:(173)] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-18 17:16:43 [INFO ] [FrameworkServlet.java][initServletBean:(525)] : Initializing Servlet 'dispatcherServlet'
+2020-08-18 17:16:43 [INFO ] [FrameworkServlet.java][initServletBean:(547)] : Completed initialization in 4 ms
+2020-08-18 17:16:43 [INFO ] [TestController.java][test:(13)] : ======test======
+2020-08-18 17:17:14 [INFO ] [AbstractEntityManagerFactoryBean.java][destroy:(598)] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-18 17:17:14 [INFO ] [SchemaDropperImpl.java][perform:(526)] : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-18 17:17:14 [INFO ] [ExecutorConfigurationSupport.java][shutdown:(218)] : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-18 17:17:14 [WARN ] [DisposableBeanAdapter.java][destroy:(267)] : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-18 17:17:14 [INFO ] [HikariDataSource.java][close:(350)] : HikariPool-1 - Shutdown initiated...
+2020-08-18 17:17:14 [INFO ] [HikariDataSource.java][close:(352)] : HikariPool-1 - Shutdown completed.
+[2020-08-18] [17:29:34.051] [INFO] [c.p.KwonPgApplication] [StartupInfoLogger.java:55] [Starting KwonPgApplication on DESKTOP-JIN with PID 2572 (C:\workspace\KWON_PG\bin\main started by mtouch in C:\workspace\KWON_PG)]
+[2020-08-18] [17:29:34.053] [INFO] [c.p.KwonPgApplication] [SpringApplication.java:651] [No active profile set, falling back to default profiles: default]
+[2020-08-18] [17:29:34.079] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] [DeferredLog.java:225] [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+[2020-08-18] [17:29:34.080] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] [DeferredLog.java:225] [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+[2020-08-18] [17:29:34.412] [INFO] [o.s.d.r.c.RepositoryConfigurationDelegate] [RepositoryConfigurationDelegate.java:127] [Bootstrapping Spring Data JPA repositories in DEFERRED mode.]
+[2020-08-18] [17:29:34.425] [INFO] [o.s.d.r.c.RepositoryConfigurationDelegate] [RepositoryConfigurationDelegate.java:187] [Finished Spring Data repository scanning in 7ms. Found 0 JPA repository interfaces.]
+[2020-08-18] [17:29:34.715] [INFO] [o.s.b.w.e.t.TomcatWebServer] [TomcatWebServer.java:108] [Tomcat initialized with port(s): 8080 (http)]
+[2020-08-18] [17:29:34.723] [INFO] [o.a.c.c.StandardService] [DirectJDKLog.java:173] [Starting service [Tomcat]]
+[2020-08-18] [17:29:34.723] [INFO] [o.a.c.c.StandardEngine] [DirectJDKLog.java:173] [Starting Servlet engine: [Apache Tomcat/9.0.37]]
+[2020-08-18] [17:29:34.848] [INFO] [o.a.j.s.TldScanner] [DirectJDKLog.java:173] [At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.]
+[2020-08-18] [17:29:34.851] [INFO] [o.a.c.c.C.[.[.[/]] [DirectJDKLog.java:173] [Initializing Spring embedded WebApplicationContext]
+[2020-08-18] [17:29:34.852] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] [ServletWebServerApplicationContext.java:285] [Root WebApplicationContext: initialization completed in 772 ms]
+[2020-08-18] [17:29:34.874] [INFO] [c.z.h.HikariDataSource] [HikariDataSource.java:110] [HikariPool-1 - Starting...]
+[2020-08-18] [17:29:34.936] [INFO] [c.z.h.HikariDataSource] [HikariDataSource.java:123] [HikariPool-1 - Start completed.]
+[2020-08-18] [17:29:34.940] [INFO] [o.s.b.a.h.H2ConsoleAutoConfiguration] [H2ConsoleAutoConfiguration.java:74] [H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:0dd36a02-aa09-4739-8843-1208ea9e560a']
+[2020-08-18] [17:29:35.019] [INFO] [o.s.s.c.ThreadPoolTaskExecutor] [ExecutorConfigurationSupport.java:181] [Initializing ExecutorService 'applicationTaskExecutor']
+[2020-08-18] [17:29:35.043] [INFO] [o.h.j.i.u.LogHelper] [LogHelper.java:31] [HHH000204: Processing PersistenceUnitInfo [name: default]]
+[2020-08-18] [17:29:35.060] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] [JpaBaseConfiguration.java:220] [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning]
+[2020-08-18] [17:29:35.070] [INFO] [o.h.Version] [Version.java:44] [HHH000412: Hibernate ORM core version 5.4.20.Final]
+[2020-08-18] [17:29:35.189] [INFO] [o.h.a.c.Version] [JavaReflectionManager.java:49] [HCANN000001: Hibernate Commons Annotations {5.1.0.Final}]
+[2020-08-18] [17:29:35.256] [INFO] [o.h.d.Dialect] [Dialect.java:170] [HHH000400: Using dialect: org.hibernate.dialect.H2Dialect]
+[2020-08-18] [17:29:35.272] [INFO] [o.s.b.d.a.OptionalLiveReloadServer] [OptionalLiveReloadServer.java:58] [LiveReload server is running on port 35729]
+[2020-08-18] [17:29:35.297] [INFO] [o.s.b.w.e.t.TomcatWebServer] [TomcatWebServer.java:220] [Tomcat started on port(s): 8080 (http) with context path '']
+[2020-08-18] [17:29:35.298] [INFO] [o.s.d.r.c.DeferredRepositoryInitializationListener] [DeferredRepositoryInitializationListener.java:49] [Triggering deferred initialization of Spring Data repositories…]
+[2020-08-18] [17:29:35.299] [INFO] [o.s.d.r.c.DeferredRepositoryInitializationListener] [DeferredRepositoryInitializationListener.java:53] [Spring Data repositories initialized!]
+[2020-08-18] [17:29:35.304] [INFO] [c.p.KwonPgApplication] [StartupInfoLogger.java:61] [Started KwonPgApplication in 1.495 seconds (JVM running for 1.984)]
+[2020-08-18] [17:29:35.306] [INFO] [c.p.KwonPgApplication] [KwonPgApplication.java:14] [======main======]
+[2020-08-18] [17:29:35.369] [INFO] [o.h.e.t.j.p.i.JtaPlatformInitiator] [JtaPlatformInitiator.java:52] [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]]
+[2020-08-18] [17:29:35.374] [INFO] [o.s.o.j.LocalContainerEntityManagerFactoryBean] [AbstractEntityManagerFactoryBean.java:416] [Initialized JPA EntityManagerFactory for persistence unit 'default']
+[2020-08-18] [17:29:36.576] [INFO] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [SpringApplicationAdminMXBeanRegistrar.java:159] [Application shutdown requested.]
+[2020-08-18] [17:29:36.678] [INFO] [o.s.o.j.LocalContainerEntityManagerFactoryBean] [AbstractEntityManagerFactoryBean.java:598] [Closing JPA EntityManagerFactory for persistence unit 'default']
+[2020-08-18] [17:29:36.679] [INFO] [o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl] [SchemaDropperImpl.java:526] [HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down']
+[2020-08-18] [17:29:36.680] [INFO] [o.s.s.c.ThreadPoolTaskExecutor] [ExecutorConfigurationSupport.java:218] [Shutting down ExecutorService 'applicationTaskExecutor']
+[2020-08-18] [17:29:36.888] [WARN] [o.s.b.f.s.DisposableBeanAdapter] [DisposableBeanAdapter.java:267] [Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]]
+[2020-08-18] [17:29:36.889] [INFO] [c.z.h.HikariDataSource] [HikariDataSource.java:350] [HikariPool-1 - Shutdown initiated...]
+[2020-08-18] [17:29:36.891] [INFO] [c.z.h.HikariDataSource] [HikariDataSource.java:352] [HikariPool-1 - Shutdown completed.]
+[2020-08-18 17:31:22] [INFO ] [StartupInfoLogger.java][logStarting:55] : Starting KwonPgApplication on DESKTOP-JIN with PID 9828 (C:\workspace\KWON_PG\bin\main started by mtouch in C:\workspace\KWON_PG)
+[2020-08-18 17:31:22] [INFO ] [SpringApplication.java][logStartupProfileInfo:651] : No active profile set, falling back to default profiles: default
+[2020-08-18 17:31:22] [INFO ] [DeferredLog.java][logTo:225] : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-08-18 17:31:22] [INFO ] [DeferredLog.java][logTo:225] : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-08-18 17:31:22] [INFO ] [RepositoryConfigurationDelegate.java][registerRepositoriesIn:127] : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-08-18 17:31:22] [INFO ] [RepositoryConfigurationDelegate.java][registerRepositoriesIn:187] : Finished Spring Data repository scanning in 8ms. Found 0 JPA repository interfaces.
+[2020-08-18 17:31:22] [INFO ] [TomcatWebServer.java][initialize:108] : Tomcat initialized with port(s): 8080 (http)
+[2020-08-18 17:31:22] [INFO ] [DirectJDKLog.java][log:173] : Starting service [Tomcat]
+[2020-08-18 17:31:22] [INFO ] [DirectJDKLog.java][log:173] : Starting Servlet engine: [Apache Tomcat/9.0.37]
+[2020-08-18 17:31:22] [INFO ] [DirectJDKLog.java][log:173] : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2020-08-18 17:31:22] [INFO ] [DirectJDKLog.java][log:173] : Initializing Spring embedded WebApplicationContext
+[2020-08-18 17:31:22] [INFO ] [ServletWebServerApplicationContext.java][prepareWebApplicationContext:285] : Root WebApplicationContext: initialization completed in 790 ms
+[2020-08-18 17:31:22] [INFO ] [HikariDataSource.java][getConnection:110] : HikariPool-1 - Starting...
+[2020-08-18 17:31:22] [INFO ] [HikariDataSource.java][getConnection:123] : HikariPool-1 - Start completed.
+[2020-08-18 17:31:22] [INFO ] [H2ConsoleAutoConfiguration.java][lambda$h2Console$0:74] : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:e4702459-1c67-4b60-b7dc-49a1fd1aadaa'
+[2020-08-18 17:31:23] [INFO ] [ExecutorConfigurationSupport.java][initialize:181] : Initializing ExecutorService 'applicationTaskExecutor'
+[2020-08-18 17:31:23] [INFO ] [LogHelper.java][logPersistenceUnitInformation:31] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-08-18 17:31:23] [WARN ] [JpaBaseConfiguration.java][openEntityManagerInViewInterceptor:220] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-08-18 17:31:23] [INFO ] [Version.java][logVersion:44] : HHH000412: Hibernate ORM core version 5.4.20.Final
+[2020-08-18 17:31:23] [INFO ] [JavaReflectionManager.java][<clinit>:49] : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-08-18 17:31:23] [INFO ] [Dialect.java][<init>:170] : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-08-18 17:31:23] [INFO ] [OptionalLiveReloadServer.java][startServer:58] : LiveReload server is running on port 35729
+[2020-08-18 17:31:23] [INFO ] [TomcatWebServer.java][start:220] : Tomcat started on port(s): 8080 (http) with context path ''
+[2020-08-18 17:31:23] [INFO ] [DeferredRepositoryInitializationListener.java][onApplicationEvent:49] : Triggering deferred initialization of Spring Data repositories…
+[2020-08-18 17:31:23] [INFO ] [DeferredRepositoryInitializationListener.java][onApplicationEvent:53] : Spring Data repositories initialized!
+[2020-08-18 17:31:23] [INFO ] [StartupInfoLogger.java][logStarted:61] : Started KwonPgApplication in 1.538 seconds (JVM running for 2.035)
+[2020-08-18 17:31:23] [INFO ] [KwonPgApplication.java][main:14] : ======main======
+[2020-08-18 17:31:23] [INFO ] [JtaPlatformInitiator.java][initiateService:52] : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-08-18 17:31:23] [INFO ] [AbstractEntityManagerFactoryBean.java][buildNativeEntityManagerFactory:416] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-08-18 17:31:34] [INFO ] [AbstractEntityManagerFactoryBean.java][destroy:598] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-08-18 17:31:34] [INFO ] [SchemaDropperImpl.java][perform:526] : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2020-08-18 17:31:34] [INFO ] [ExecutorConfigurationSupport.java][shutdown:218] : Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-08-18 17:31:35] [WARN ] [DisposableBeanAdapter.java][destroy:267] : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+[2020-08-18 17:31:35] [INFO ] [HikariDataSource.java][close:350] : HikariPool-1 - Shutdown initiated...
+[2020-08-18 17:31:35] [INFO ] [HikariDataSource.java][close:352] : HikariPool-1 - Shutdown completed.
+[2020-08-18 17:31:35] [INFO ] [StartupInfoLogger.java][logStarting:55] : Starting KwonPgApplication on DESKTOP-JIN with PID 9828 (C:\workspace\KWON_PG\bin\main started by mtouch in C:\workspace\KWON_PG)
+[2020-08-18 17:31:35] [INFO ] [SpringApplication.java][logStartupProfileInfo:651] : No active profile set, falling back to default profiles: default
+[2020-08-18 17:31:35] [INFO ] [RepositoryConfigurationDelegate.java][registerRepositoriesIn:127] : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-08-18 17:31:35] [INFO ] [RepositoryConfigurationDelegate.java][registerRepositoriesIn:187] : Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
+[2020-08-18 17:31:35] [INFO ] [TomcatWebServer.java][initialize:108] : Tomcat initialized with port(s): 8080 (http)
+[2020-08-18 17:31:35] [INFO ] [DirectJDKLog.java][log:173] : Starting service [Tomcat]
+[2020-08-18 17:31:35] [INFO ] [DirectJDKLog.java][log:173] : Starting Servlet engine: [Apache Tomcat/9.0.37]
+[2020-08-18 17:31:35] [INFO ] [DirectJDKLog.java][log:173] : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2020-08-18 17:31:35] [INFO ] [DirectJDKLog.java][log:173] : Initializing Spring embedded WebApplicationContext
+[2020-08-18 17:31:35] [INFO ] [ServletWebServerApplicationContext.java][prepareWebApplicationContext:285] : Root WebApplicationContext: initialization completed in 249 ms
+[2020-08-18 17:31:35] [INFO ] [HikariDataSource.java][getConnection:110] : HikariPool-2 - Starting...
+[2020-08-18 17:31:35] [INFO ] [HikariDataSource.java][getConnection:123] : HikariPool-2 - Start completed.
+[2020-08-18 17:31:35] [INFO ] [H2ConsoleAutoConfiguration.java][lambda$h2Console$0:74] : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:13f7de8f-651d-4bd4-8051-dfd259b9c00c'
+[2020-08-18 17:31:35] [INFO ] [ExecutorConfigurationSupport.java][initialize:181] : Initializing ExecutorService 'applicationTaskExecutor'
+[2020-08-18 17:31:35] [INFO ] [LogHelper.java][logPersistenceUnitInformation:31] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-08-18 17:31:35] [INFO ] [Dialect.java][<init>:170] : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-08-18 17:31:35] [WARN ] [JpaBaseConfiguration.java][openEntityManagerInViewInterceptor:220] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-08-18 17:31:35] [INFO ] [JtaPlatformInitiator.java][initiateService:52] : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-08-18 17:31:35] [INFO ] [AbstractEntityManagerFactoryBean.java][buildNativeEntityManagerFactory:416] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-08-18 17:31:35] [INFO ] [OptionalLiveReloadServer.java][startServer:58] : LiveReload server is running on port 35729
+[2020-08-18 17:31:35] [INFO ] [TomcatWebServer.java][start:220] : Tomcat started on port(s): 8080 (http) with context path ''
+[2020-08-18 17:31:35] [INFO ] [DeferredRepositoryInitializationListener.java][onApplicationEvent:49] : Triggering deferred initialization of Spring Data repositories…
+[2020-08-18 17:31:35] [INFO ] [DeferredRepositoryInitializationListener.java][onApplicationEvent:53] : Spring Data repositories initialized!
+[2020-08-18 17:31:35] [INFO ] [StartupInfoLogger.java][logStarted:61] : Started KwonPgApplication in 0.39 seconds (JVM running for 14.206)
+[2020-08-18 17:31:35] [INFO ] [ConditionEvaluationDeltaLoggingListener.java][onApplicationEvent:63] : Condition evaluation unchanged
+[2020-08-18 17:31:35] [INFO ] [KwonPgApplication.java][main:14] : ======main======
+[2020-08-18 17:32:21] [INFO ] [SpringApplicationAdminMXBeanRegistrar.java][shutdown:159] : Application shutdown requested.
+[2020-08-18 17:32:21] [INFO ] [AbstractEntityManagerFactoryBean.java][destroy:598] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-08-18 17:32:21] [INFO ] [SchemaDropperImpl.java][perform:526] : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2020-08-18 17:32:21] [INFO ] [ExecutorConfigurationSupport.java][shutdown:218] : Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-08-18 17:32:21] [WARN ] [DisposableBeanAdapter.java][destroy:267] : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+[2020-08-18 17:32:21] [INFO ] [HikariDataSource.java][close:350] : HikariPool-2 - Shutdown initiated...
+[2020-08-18 17:32:21] [INFO ] [HikariDataSource.java][close:352] : HikariPool-2 - Shutdown completed.
+[2020-08-18 17:32:24] [INFO] [StartupInfoLogger.java][logStarting:55] Starting KwonPgApplication on DESKTOP-JIN with PID 16408 (C:\workspace\KWON_PG\bin\main started by mtouch in C:\workspace\KWON_PG)
+[2020-08-18 17:32:24] [INFO] [SpringApplication.java][logStartupProfileInfo:651] No active profile set, falling back to default profiles: default
+[2020-08-18 17:32:24] [INFO] [DeferredLog.java][logTo:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-08-18 17:32:24] [INFO] [DeferredLog.java][logTo:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-08-18 17:32:24] [INFO] [RepositoryConfigurationDelegate.java][registerRepositoriesIn:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-08-18 17:32:24] [INFO] [RepositoryConfigurationDelegate.java][registerRepositoriesIn:187] Finished Spring Data repository scanning in 8ms. Found 0 JPA repository interfaces.
+[2020-08-18 17:32:24] [INFO] [TomcatWebServer.java][initialize:108] Tomcat initialized with port(s): 8080 (http)
+[2020-08-18 17:32:24] [INFO] [DirectJDKLog.java][log:173] Starting service [Tomcat]
+[2020-08-18 17:32:24] [INFO] [DirectJDKLog.java][log:173] Starting Servlet engine: [Apache Tomcat/9.0.37]
+[2020-08-18 17:32:24] [INFO] [DirectJDKLog.java][log:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2020-08-18 17:32:24] [INFO] [DirectJDKLog.java][log:173] Initializing Spring embedded WebApplicationContext
+[2020-08-18 17:32:24] [INFO] [ServletWebServerApplicationContext.java][prepareWebApplicationContext:285] Root WebApplicationContext: initialization completed in 787 ms
+[2020-08-18 17:32:24] [INFO] [HikariDataSource.java][getConnection:110] HikariPool-1 - Starting...
+[2020-08-18 17:32:24] [INFO] [HikariDataSource.java][getConnection:123] HikariPool-1 - Start completed.
+[2020-08-18 17:32:24] [INFO] [H2ConsoleAutoConfiguration.java][lambda$h2Console$0:74] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:076f61af-8e31-4b45-9526-537c2f7c013c'
+[2020-08-18 17:32:25] [INFO] [ExecutorConfigurationSupport.java][initialize:181] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-08-18 17:32:25] [INFO] [LogHelper.java][logPersistenceUnitInformation:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-08-18 17:32:25] [WARN] [JpaBaseConfiguration.java][openEntityManagerInViewInterceptor:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-08-18 17:32:25] [INFO] [Version.java][logVersion:44] HHH000412: Hibernate ORM core version 5.4.20.Final
+[2020-08-18 17:32:25] [INFO] [JavaReflectionManager.java][<clinit>:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-08-18 17:32:25] [INFO] [Dialect.java][<init>:170] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-08-18 17:32:25] [INFO] [OptionalLiveReloadServer.java][startServer:58] LiveReload server is running on port 35729
+[2020-08-18 17:32:25] [INFO] [TomcatWebServer.java][start:220] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-08-18 17:32:25] [INFO] [DeferredRepositoryInitializationListener.java][onApplicationEvent:49] Triggering deferred initialization of Spring Data repositories…
+[2020-08-18 17:32:25] [INFO] [DeferredRepositoryInitializationListener.java][onApplicationEvent:53] Spring Data repositories initialized!
+[2020-08-18 17:32:25] [INFO] [StartupInfoLogger.java][logStarted:61] Started KwonPgApplication in 1.526 seconds (JVM running for 2.03)
+[2020-08-18 17:32:25] [INFO] [KwonPgApplication.java][main:14] ======main======
+[2020-08-18 17:32:25] [INFO] [JtaPlatformInitiator.java][initiateService:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-08-18 17:32:25] [INFO] [AbstractEntityManagerFactoryBean.java][buildNativeEntityManagerFactory:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-08-18 17:33:05] [INFO] [SpringApplicationAdminMXBeanRegistrar.java][shutdown:159] Application shutdown requested.
+[2020-08-18 17:33:05] [INFO] [AbstractEntityManagerFactoryBean.java][destroy:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-08-18 17:33:05] [INFO] [SchemaDropperImpl.java][perform:526] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2020-08-18 17:33:05] [INFO] [ExecutorConfigurationSupport.java][shutdown:218] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-08-18 17:33:05] [WARN] [DisposableBeanAdapter.java][destroy:267] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+[2020-08-18 17:33:05] [INFO] [HikariDataSource.java][close:350] HikariPool-1 - Shutdown initiated...
+[2020-08-18 17:33:05] [INFO] [HikariDataSource.java][close:352] HikariPool-1 - Shutdown completed.

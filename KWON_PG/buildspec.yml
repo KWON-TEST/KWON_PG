@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto11
+    commands:
+      - echo Kwon Pg build...
+    run-as: root
+
+artifacts:
+  files:
+    - "**/*"

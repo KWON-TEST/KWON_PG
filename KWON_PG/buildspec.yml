@@ -12,7 +12,6 @@ artifacts:
     - appspec.yml
     - build/libs/*.jar
   discard-paths: yes
-  
 cache:
   paths:
     - '/root/.gradle/caches/**/*'

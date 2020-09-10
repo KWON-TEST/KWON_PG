@@ -27,4 +27,11 @@ public class TestController {
 		
 		return mv;
 	}
+	
+	@RequestMapping(value="/test2") 
+	public String test2(){
+        String testStr = "Hi~~";
+        System.out.println(testStr);
+        return testStr;
+    }
 }

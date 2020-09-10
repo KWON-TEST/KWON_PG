@@ -4,7 +4,9 @@ phases:
   build:
     commands:
       - echo Kwon Pg build...
-artifacts:
-  files:
-    - '**/*'
-  name: myname-$(date +%Y-%m-%d)
+      - chmod +x ./gradlew
+      - ./gradlew build
+  
+cache:
+  paths:
+    - '/root/.gradle/caches/**/*'

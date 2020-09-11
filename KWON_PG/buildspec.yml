@@ -4,8 +4,8 @@ phases:
   build:
     commands:
       - echo Kwon Pg build...
-      - chmod +x ./gradlew
-      - ./gradlew build
+      - chmod +x gradlew
+      - ./gradlew KWON_PG
 artifacts:
   files:
     - appspec.yml

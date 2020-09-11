@@ -8,7 +8,7 @@ phases:
       - ./KWON_PG/gradlew build
   post_build:
     commands:
-      - echo $(basename .KWON_PG/build/libs/*.jar)
+      - echo $(basename ./KWON_PG/build/libs/*.jar)
       - pwd
 artifacts:
   files:
